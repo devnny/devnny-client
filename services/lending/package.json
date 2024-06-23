@@ -10,17 +10,21 @@
   },
   "dependencies": {
     "@devnny/ui": "workspace:*",
+    "next": "*",
     "react": "*",
-    "react-dom": "*",
-    "next": "*"
+    "react-dom": "*"
   },
   "devDependencies": {
     "@devnny/eslint-config": "workspace:*",
     "@devnny/tsconfig": "workspace:*",
-    "typescript": "*",
+    "@devnny/tailwind-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "eslint": "^8"
+    "autoprefixer": "*",
+    "eslint": "^8",
+    "postcss": "*",
+    "tailwindcss": "*",
+    "typescript": "*"
   }
 }

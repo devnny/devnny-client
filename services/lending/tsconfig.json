@@ -1,5 +1,17 @@
 {
   "extends": "@devnny/tsconfig/nextjs.json",
+  "compilerOptions": {
+    "paths": {
+      "@ui/*": [
+        "../../packages/ui/src/*"
+      ]
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
   "include": [
     "next-env.d.ts",
     "**/*.ts",

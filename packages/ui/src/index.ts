@@ -1,3 +1,3 @@
-export * from "./button";
-export * from "./card";
-export * from "./code";
+import './styles/globals.css';
+
+export * from './components';
