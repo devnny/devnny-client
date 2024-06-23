@@ -5,12 +5,22 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "prettier": "^3.2.5",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "prettier": "*",
     "turbo": "^2.0.4",
-    "typescript": "^5.4.5"
+    "typescript": "*"
+  },
+  "resolutions": {
+    "typescript": "^5.4.5",
+    "react": "^18",
+    "react-dom": "^18.3.1",
+    "next": "14.2.3",
+    "prettier": "^3.2.5"
   },
   "packageManager": "pnpm@8.15.6",
   "engines": {
